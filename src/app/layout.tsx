@@ -45,16 +45,34 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${notoSansJP.variable} antialiased flex flex-col min-h-screen font-sans`}
       >
-        <header className="p-4 border-b border-gray-200">
-          <Link href="/" className="text-xl font-bold">
-            solooo.dev
-          </Link>
+        <header className="p-4 border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
+          <div className="container mx-auto max-w-6xl flex items-center justify-between">
+            <Link href="/" className="text-xl font-bold text-slate-900">
+              solooo.dev
+            </Link>
+            <nav className="flex items-center space-x-6 text-sm font-medium text-slate-600">
+              <Link href="/products" className="hover:text-blue-900 transition-colors">
+                Products
+              </Link>
+              <Link href="/about" className="hover:text-blue-900 transition-colors">
+                About
+              </Link>
+              <Link href="/contact" className="hover:text-blue-900 transition-colors">
+                Contact
+              </Link>
+            </nav>
+          </div>
         </header>
         <main className="flex-grow flex flex-col p-4">
           {children}
         </main>
-        <footer className="p-4 border-t border-gray-200 text-center text-sm text-gray-500">
-          © 2026 Ohara System
+        <footer className="py-8 border-t border-gray-200 bg-slate-50 text-sm text-gray-500">
+          <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between px-4 gap-4">
+            <p>© 2026 Ohara System</p>
+            <Link href="/privacy" className="text-xs hover:text-gray-800 transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </footer>
       </body>
     </html>

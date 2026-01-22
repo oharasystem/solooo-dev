@@ -24,26 +24,34 @@ export default function Home() {
         <p className="text-xl text-gray-600 mb-8 max-w-2xl leading-relaxed">
           Indie developer & software engineer based in Tokyo.
         </p>
-        <Link
-          href="/products"
-          className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-blue-900 rounded-md hover:bg-blue-800 transition-colors shadow-sm"
-        >
-          View Shipyard
-          <svg
-            className="w-4 h-4 ml-2"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+        <div className="flex flex-wrap gap-4">
+          <Link
+            href="/products"
+            className="inline-flex items-center px-6 py-3 text-base font-medium text-white bg-blue-900 rounded-md hover:bg-blue-800 transition-colors shadow-sm"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M17 8l4 4m0 0l-4 4m4-4H3"
-            />
-          </svg>
-        </Link>
+            View Shipyard
+            <svg
+              className="w-4 h-4 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </Link>
+          <Link
+            href="/about"
+            className="inline-flex items-center px-6 py-3 text-base font-medium text-slate-700 bg-transparent border border-slate-300 rounded-md hover:bg-slate-50 transition-colors"
+          >
+            Read Profile
+          </Link>
+        </div>
       </section>
 
       {/* Featured Products Section */}
