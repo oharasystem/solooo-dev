@@ -15,8 +15,24 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "solooo.dev",
-  description: "solooo.dev portfolio site",
+  metadataBase: new URL('https://solooo.dev'),
+  title: {
+    template: '%s | solooo.dev',
+    default: 'solooo.dev - The Shipyard of Ohara System',
+  },
+  description:
+    'Personal development portfolio of Ohara System. Building distinct web services from scratch.',
+  openGraph: {
+    title: {
+      template: '%s | solooo.dev',
+      default: 'solooo.dev - The Shipyard of Ohara System',
+    },
+    description:
+      'Personal development portfolio of Ohara System. Building distinct web services from scratch.',
+    siteName: 'solooo.dev',
+    locale: 'ja_JP',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
