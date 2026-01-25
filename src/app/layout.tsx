@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Noto_Sans_JP } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -22,6 +23,10 @@ export const metadata: Metadata = {
   },
   description:
     'Personal development portfolio of Ohara System. Building distinct web services from scratch.',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
   openGraph: {
     title: {
       template: '%s | solooo.dev',
@@ -47,8 +52,14 @@ export default function RootLayout({
       >
         <header className="p-4 border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
-            <Link href="/" className="text-xl font-bold text-slate-900">
-              solooo.dev
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/logo.svg"
+                alt="solooo.dev"
+                width={150}
+                height={40}
+                priority
+              />
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium text-slate-600">
               <Link href="/products" className="hover:text-blue-900 transition-colors">

@@ -7,7 +7,7 @@ export const products: Product[] = [
     description: '和暦と西暦を瞬時に変換・検索できるユーティリティツール。',
     url: 'https://nengo.solooo.dev',
     status: 'released',
-    tags: ['Tool', 'Next.js'],
+    tags: ['Tool', 'Hono'],
     isFeatured: true,
   },
   {

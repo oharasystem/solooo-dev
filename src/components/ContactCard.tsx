@@ -60,9 +60,8 @@ export default function ContactCard({ icon, label, value, href, isEmail = false 
 
               {/* Tooltip feedback */}
               <span
-                className={`absolute -top-8 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs py-1 px-2 rounded shadow transition-opacity duration-200 pointer-events-none whitespace-nowrap ${
-                  copied ? 'opacity-100' : 'opacity-0'
-                }`}
+                className={`absolute -top-8 left-1/2 -translate-x-1/2 bg-slate-800 text-white text-xs py-1 px-2 rounded shadow transition-opacity duration-200 pointer-events-none whitespace-nowrap ${copied ? 'opacity-100' : 'opacity-0'
+                  }`}
               >
                 Copied!
               </span>

@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { Mail, Twitter } from 'lucide-react';
+import Image from 'next/image';
+import { Mail } from 'lucide-react';
 import ContactCard from '@/components/ContactCard';
 
 export const metadata: Metadata = {
@@ -24,7 +25,7 @@ export default function ContactPage() {
           isEmail={true}
         />
         <ContactCard
-          icon={<Twitter size={24} />}
+          icon={<Image src="/x_logo.svg" alt="X" width={24} height={24} />}
           label="X (Twitter)"
           value="@solooo_dev"
           href="https://x.com/solooo_dev"
