@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { Mail, Twitter } from 'lucide-react';
+import ContactCard from '@/components/ContactCard';
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -13,25 +15,20 @@ export default function ContactPage() {
         お仕事のご依頼やご相談は、以下のメールアドレス、またはX (Twitter) のDMまでお願いいたします。
       </p>
 
-      <div className="space-y-6">
-        <div>
-          <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">Email</h2>
-          <a href="mailto:hello@solooo.dev" className="text-xl text-blue-900 hover:text-blue-700 font-medium hover:underline">
-            hello@solooo.dev
-          </a>
-        </div>
-
-        <div>
-          <h2 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-1">X (Twitter)</h2>
-          <a
-            href="https://x.com/o_lab"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xl text-blue-900 hover:text-blue-700 font-medium hover:underline"
-          >
-            @o_lab
-          </a>
-        </div>
+      <div className="grid grid-cols-1 gap-6">
+        <ContactCard
+          icon={<Mail size={24} />}
+          label="Email"
+          value="contact@solooo.dev"
+          href="mailto:contact@solooo.dev"
+          isEmail={true}
+        />
+        <ContactCard
+          icon={<Twitter size={24} />}
+          label="X (Twitter)"
+          value="@solooo_dev"
+          href="https://x.com/solooo_dev"
+        />
       </div>
     </div>
   );
