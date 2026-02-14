@@ -1,8 +1,13 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'Information about Ohara System and the developer.',
+  title: 'プロフィール',
+  description: 'solooo.devの開発者プロフィールと事業情報。東京を拠点に活動するソフトウェアエンジニアです。',
+  openGraph: {
+    title: 'プロフィール | solooo.dev',
+    description: 'solooo.devの開発者プロフィールと事業情報。東京を拠点に活動するソフトウェアエンジニアです。',
+    url: '/about',
+  },
 };
 
 const techStack = [

@@ -3,8 +3,13 @@ import ProductCard from '@/components/ProductCard';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Products | solooo.dev',
-  description: 'All products developed by Ohara System.',
+  title: 'プロダクト',
+  description: 'solooo.devが開発・運用している、すべてのWebサービスとツールの一覧。調整マスター、Soku-p、証明写真マスターなど、個人の機動力を活かしたユニークなプロダクトを公開しています。',
+  openGraph: {
+    title: 'プロダクト | solooo.dev',
+    description: 'solooo.devが開発・運用している、すべてのWebサービスとツールの一覧。調整マスター、Soku-p、証明写真マスターなど、個人の機動力を活かしたユニークなプロダクトを公開しています。',
+    url: '/products',
+  },
 };
 
 export default function ProductsPage() {

@@ -4,8 +4,13 @@ import { Mail } from 'lucide-react';
 import ContactCard from '@/components/ContactCard';
 
 export const metadata: Metadata = {
-  title: 'Contact',
-  description: 'Contact Ohara System.',
+  title: 'お問い合わせ',
+  description: 'solooo.devへのお問い合わせ。お仕事のご依頼やご相談はこちらの連絡先まで。',
+  openGraph: {
+    title: 'お問い合わせ | solooo.dev',
+    description: 'solooo.devへのお問い合わせ。お仕事のご依頼やご相談はこちらの連絡先まで。',
+    url: '/contact',
+  },
 };
 
 export default function ContactPage() {

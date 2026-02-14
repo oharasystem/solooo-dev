@@ -19,10 +19,11 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://solooo.dev'),
   title: {
     template: '%s | solooo.dev',
-    default: 'solooo.dev - The Shipyard of Ohara System',
+    default: 'solooo.dev - Go Solo. Make Waves.',
   },
   description:
-    'Personal development portfolio of Ohara System. Building distinct web services from scratch.',
+    'Go Solo. Make Waves. solooo.devは、個人の機動力でユニークな価値を次々と送り出す、Webサービス開発・運用拠点（Shipyard）です。',
+  keywords: ['Webサービス', '個人開発', 'Next.js', 'Cloudflare', 'solooo'],
   icons: {
     icon: '/icon.svg',
     apple: '/icon.svg',
@@ -30,13 +31,24 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       template: '%s | solooo.dev',
-      default: 'solooo.dev - The Shipyard of Ohara System',
+      default: 'solooo.dev - Go Solo. Make Waves.',
     },
     description:
-      'Personal development portfolio of Ohara System. Building distinct web services from scratch.',
+      'Go Solo. Make Waves. solooo.devは、個人の機動力でユニークな価値を次々と送り出す、Webサービス開発・運用拠点（Shipyard）です。',
     siteName: 'solooo.dev',
     locale: 'ja_JP',
     type: 'website',
+    url: 'https://solooo.dev',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: {
+      template: '%s | solooo.dev',
+      default: 'solooo.dev - Go Solo. Make Waves.',
+    },
+    description:
+      'Go Solo. Make Waves. solooo.devは、個人の機動力でユニークな価値を次々と送り出す、Webサービス開発・運用拠点（Shipyard）です。',
+    creator: '@solooo_dev',
   },
 };
 
