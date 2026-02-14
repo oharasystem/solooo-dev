@@ -62,6 +62,22 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${notoSansJP.variable} antialiased flex flex-col min-h-screen font-sans`}
       >
+        {process.env.NODE_ENV === 'production' && (
+          <>
+            {/* Google tag (gtag.js) */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BWW91SHD7"></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'G-6BWW91SHD7');
+                `,
+              }}
+            />
+          </>
+        )}
         <header className="p-4 border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <Link href="/" className="flex items-center">
