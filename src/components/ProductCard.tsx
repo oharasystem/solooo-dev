@@ -27,13 +27,18 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.title}
         </h3>
         <span
-          className={`text-xs font-medium px-2.5 py-0.5 rounded border ${
-            statusColors[product.status]
-          }`}
+          className={`text-xs font-medium px-2.5 py-0.5 rounded border ${statusColors[product.status]
+            }`}
         >
           {statusLabels[product.status]}
         </span>
       </div>
+
+      {product.releaseDate && (
+        <div className="text-xs text-gray-500 mb-2">
+          Released: {product.releaseDate}
+        </div>
+      )}
 
       <p className="text-gray-600 mb-6 flex-grow text-sm leading-relaxed">
         {product.description}

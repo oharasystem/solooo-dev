@@ -11,9 +11,9 @@ export default function ProductsPage() {
   return (
     <div className="container mx-auto max-w-6xl py-12">
       <div className="mb-12">
-        <h1 className="text-3xl font-bold text-slate-900 mb-4">All Products</h1>
+        <h1 className="text-3xl font-bold text-slate-900 mb-4">全プロダクト一覧</h1>
         <p className="text-gray-600">
-          A collection of web services and tools I&apos;ve built.
+          solooo.dev が開発・運用している、すべてのWebサービスとツール。
         </p>
       </div>
 

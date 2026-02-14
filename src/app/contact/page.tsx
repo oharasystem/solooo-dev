@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="container mx-auto max-w-2xl py-12 md:py-24">
-      <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">Contact</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">お問い合わせ</h1>
       <p className="text-lg text-gray-700 leading-relaxed mb-8">
         お仕事のご依頼やご相談は、以下のメールアドレス、またはX (Twitter) のDMまでお願いいたします。
       </p>

@@ -14,10 +14,10 @@ const techStack = [
 ];
 
 const businessInfo = [
-  { label: 'Trade Name', value: 'Ohara System (大原システム)' },
-  { label: 'Type', value: 'Sole Proprietorship (個人事業主)' },
-  { label: 'Activities', value: 'Web Service Development, Mobile Application Development' },
-  { label: 'Location', value: 'Tokyo, Japan' },
+  { label: '屋号', value: 'Ohara System (大原システム)' },
+  { label: '事業形態', value: '個人事業主' },
+  { label: '事業内容', value: 'Webサービス開発、モバイルアプリケーション開発' },
+  { label: '所在地', value: '東京都' },
 ];
 
 export default function AboutPage() {
@@ -25,10 +25,10 @@ export default function AboutPage() {
     <div className="container mx-auto max-w-3xl py-12 space-y-16">
       {/* Profile Section */}
       <section>
-        <h1 className="text-3xl font-bold text-slate-900 mb-8">Developer</h1>
+        <h1 className="text-3xl font-bold text-slate-900 mb-8">開発者プロフィール</h1>
         <div className="bg-white p-0">
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            Personal developer & software engineer based in Tokyo.
+            東京を拠点に活動するソフトウェアエンジニア・個人開発者。
           </p>
           <div className="flex flex-wrap gap-3">
             {techStack.map((tech) => (
@@ -45,7 +45,7 @@ export default function AboutPage() {
 
       {/* Business Info Section */}
       <section>
-        <h2 className="text-2xl font-bold text-slate-900 mb-6">Business Information</h2>
+        <h2 className="text-2xl font-bold text-slate-900 mb-6">事業情報</h2>
         <div className="bg-white border border-gray-200 rounded-lg overflow-hidden">
           <dl className="divide-y divide-gray-200">
             {businessInfo.map((item) => (

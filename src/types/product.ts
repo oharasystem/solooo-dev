@@ -6,4 +6,5 @@ export interface Product {
   status: 'released' | 'beta' | 'development' | 'archived';
   tags: string[];
   isFeatured: boolean;
+  releaseDate?: string;
 }

@@ -63,13 +63,13 @@ export default function RootLayout({
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium text-slate-600">
               <Link href="/products" className="hover:text-blue-900 transition-colors">
-                Products
+                プロダクト
               </Link>
               <Link href="/about" className="hover:text-blue-900 transition-colors">
-                About
+                プロフィール
               </Link>
               <Link href="/contact" className="hover:text-blue-900 transition-colors">
-                Contact
+                お問い合わせ
               </Link>
             </nav>
           </div>
@@ -79,9 +79,9 @@ export default function RootLayout({
         </main>
         <footer className="py-8 border-t border-gray-200 bg-slate-50 text-sm text-gray-500">
           <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center justify-between px-4 gap-4">
-            <p>© 2026 Ohara System</p>
+            <p>© 2026 solooo.dev</p>
             <Link href="/privacy" className="text-xs hover:text-gray-800 transition-colors">
-              Privacy Policy
+              プライバシーポリシー
             </Link>
           </div>
         </footer>
