@@ -21,18 +21,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">2. 広告について</h2>
-          <p>
-            当サイトでは、第三者配信の広告サービス（Googleアドセンス）を利用しており、ユーザーの興味に応じた商品やサービスの広告を表示するため、クッキー（Cookie）を使用しております。
-            <br />
-            クッキーを使用することで当サイトはお客様のコンピュータを識別できるようになりますが、お客様個人を特定できるものではありません。
-            <br />
-            Cookieを無効にする方法やGoogleアドセンスに関する詳細は「<a href="https://policies.google.com/technologies/ads?hl=ja" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Googleポリシーと規約</a>」をご確認ください。
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">3. アクセス解析ツールについて</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">2. アクセス解析ツールについて</h2>
           <p>
             当サイトでは、サイトの利用状況を把握するためにGoogle Analytics等のアクセス解析ツールを利用しています。
             <br />
@@ -43,7 +32,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">4. 免責事項</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">3. 免責事項</h2>
           <p>
             当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。
             <br />
@@ -52,7 +41,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">5. 著作権について</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">4. 著作権について</h2>
           <p>
             当サイトに掲載されている文章・画像・プログラム等のコンテンツの著作権は、当サイト運営者または各権利所有者に帰属します。
             <br />
@@ -61,7 +50,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">6. お問い合わせ</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">5. お問い合わせ</h2>
           <p className="mb-4">
             当サイトの個人情報の取扱に関するお問い合わせは、下記までご連絡ください。
           </p>
