@@ -2,6 +2,16 @@ import { Product } from '@/types/product';
 
 export const products: Product[] = [
   {
+    id: 'lt-room',
+    title: 'LT Room',
+    description: 'LT Roomは、Lightning Talkの進行をスムーズにし、発表の場をより魅力的にするサポートツールです。',
+    url: 'https://lt-room.solooo.dev/',
+    status: 'released',
+    tags: ['Next.js', 'Hono', 'Drizzle ORM', 'Zod', 'shadcn/ui', 'TanStack Query'],
+    isFeatured: true,
+    releaseDate: '2026-03-17',
+  },
+  {
     id: 'chousei-master',
     title: '調整マスター',
     description: 'ログイン不要、30秒でイベント作成。日程調整だけでなく、場所や内容のアンケートも同時に集計できる次世代スケジューリングツール。',
@@ -28,7 +38,7 @@ export const products: Product[] = [
     url: 'https://id-photo.solooo.dev',
     status: 'released',
     tags: ['React Easy Crop', 'Radix UI', 'Privacy'],
-    isFeatured: true,
+    isFeatured: false,
     releaseDate: '2026-01-29',
   },
   {
