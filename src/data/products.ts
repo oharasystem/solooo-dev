@@ -2,6 +2,16 @@ import { Product } from '@/types/product';
 
 export const products: Product[] = [
   {
+    id: 'ronpark',
+    title: 'RONPARK',
+    description: 'AIとの対話を通じてあなたの論理的思考力と説得力を鍛える、次世代の知的格闘技プラットフォームです。',
+    url: 'https://ronpark.solooo.dev/',
+    status: 'released',
+    tags: ['Next.js', 'React 19', 'Hono', 'Cloudflare Workers', 'Cloudflare D1', 'Tailwind CSS (v4)', 'Framer Motion', 'Auth.js', 'Zod', 'Vercel AI SDK'],
+    isFeatured: true,
+    releaseDate: '2026-04-01',
+  },
+  {
     id: 'lt-room',
     title: 'LT Room',
     description: 'LT Roomは、Lightning Talkの進行をスムーズにし、発表の場をより魅力的にするサポートツールです。',
@@ -48,7 +58,7 @@ export const products: Product[] = [
     url: 'https://nengo.solooo.dev',
     status: 'released',
     tags: ['Hono', 'Cloudflare Workers', 'Minimal'],
-    isFeatured: true,
+    isFeatured: false,
     releaseDate: '2026-01-19',
   },
 
