@@ -2,6 +2,16 @@ import { Product } from '@/types/product';
 
 export const products: Product[] = [
   {
+    id: 'sauny',
+    title: 'Sauny',
+    description: 'サウナ愛好家のためのモバイルサ活記録アプリ。温度感まで伝わるこだわりのUIデザインで、日々のルーティンから「ととのい」の履歴まで美しく記録します。',
+    url: 'https://sauny.solooo.dev/',
+    status: 'released',
+    tags: ['Next.js', 'Hono', 'Flutter', 'Cloudflare D1', 'Drizzle ORM', 'shadcn/ui', 'TanStack Query'],
+    isFeatured: true,
+    releaseDate: '2026-04-30',
+  },
+  {
     id: 'ronpark',
     title: 'RONPARK',
     description: 'AIとの対話を通じてあなたの論理的思考力と説得力を鍛える、次世代の知的格闘技プラットフォームです。',
