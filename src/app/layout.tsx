@@ -39,6 +39,14 @@ export const metadata: Metadata = {
     locale: 'ja_JP',
     type: 'website',
     url: 'https://solooo.dev',
+    images: [
+      {
+        url: '/ogp.png',
+        width: 1200,
+        height: 630,
+        alt: 'solooo.dev',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -49,6 +57,8 @@ export const metadata: Metadata = {
     description:
       'Go Solo. Make Waves. solooo.devは、個人の機動力でユニークな価値を次々と送り出す、Webサービス開発・運用拠点（Shipyard）です。',
     creator: '@solooo_dev',
+    site: '@solooo_dev',
+    images: ['/ogp.png'],
   },
 };
 
