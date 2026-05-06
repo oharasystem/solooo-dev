@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     siteName: 'solooo.dev',
     locale: 'ja_JP',
     type: 'website',
-    url: 'https://solooo.dev',
     images: [
       {
         url: '/ogp.png',
