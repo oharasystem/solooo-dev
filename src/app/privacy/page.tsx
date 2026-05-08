@@ -21,7 +21,26 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">2. アクセス解析ツールについて</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">2. 広告の配信について</h2>
+          <p>
+            当サイトでは、第三者配信事業者（Google）がCookie（クッキー）を使用して、ユーザーが当サイトや他のサイトに過去にアクセスした際の情報に基づいて広告を配信します。
+            <br />
+            Googleが広告Cookieを使用することにより、ユーザーが当サイトや他のサイトにアクセスした際の情報に基づいて、Googleやそのパートナーが適切な広告をユーザーに表示できます。
+            <br />
+            ユーザーは、
+            <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              広告設定
+            </a>
+            でパーソナライズ広告を無効にできます（または、
+            <a href="https://www.aboutads.info/choices" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+              www.aboutads.info
+            </a>
+            にアクセスして、パーソナライズ広告に使われる第三者配信事業者のCookieを無効にできます）。
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">3. アクセス解析ツールについて</h2>
           <p>
             当サイトでは、サイトの利用状況を把握するためにGoogle Analytics等のアクセス解析ツールを利用しています。
             <br />
@@ -32,7 +51,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">3. 免責事項</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">4. 免責事項</h2>
           <p>
             当サイトからリンクやバナーなどによって他のサイトに移動された場合、移動先サイトで提供される情報、サービス等について一切の責任を負いません。
             <br />
@@ -41,7 +60,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">4. 著作権について</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">5. 著作権について</h2>
           <p>
             当サイトに掲載されている文章・画像・プログラム等のコンテンツの著作権は、当サイト運営者または各権利所有者に帰属します。
             <br />
@@ -50,7 +69,7 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">5. お問い合わせ</h2>
+          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-gray-100">6. お問い合わせ</h2>
           <p className="mb-4">
             当サイトの個人情報の取扱に関するお問い合わせは、下記までご連絡ください。
           </p>
@@ -69,7 +88,7 @@ export default function PrivacyPage() {
         </section>
 
         <p className="text-sm text-gray-500 pt-8 mt-12 border-t border-gray-200 text-right">
-          制定日：2025年1月26日
+          最終改訂日：2026年5月9日
         </p>
       </div>
     </div>

@@ -59,6 +59,9 @@ export const metadata: Metadata = {
     site: '@solooo_dev',
     images: ['/ogp.png'],
   },
+  other: {
+    'google-adsense-account': 'ca-pub-3860710971355910',
+  },
 };
 
 export default function RootLayout({
@@ -73,6 +76,12 @@ export default function RootLayout({
       >
         {process.env.NODE_ENV === 'production' && (
           <>
+            {/* Google AdSense */}
+            <script
+              async
+              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3860710971355910"
+              crossOrigin="anonymous"
+            ></script>
             {/* Google tag (gtag.js) */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-6BWW91SHD7"></script>
             <script
