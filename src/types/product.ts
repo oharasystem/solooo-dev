@@ -7,4 +7,12 @@ export interface Product {
   tags: string[];
   isFeatured: boolean;
   releaseDate?: string;
+  article?: {
+    tagline: string;
+    features: string[];
+    targetUsers: string;
+    howToUse: { title: string; description: string }[];
+    background: string;
+    screenshots: string[];
+  };
 }

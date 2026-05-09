@@ -96,7 +96,7 @@ export default function RootLayout({
             />
           </>
         )}
-        <header className="p-4 border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-10">
+        <header className="p-4 border-b border-gray-200 bg-white/80 backdrop-blur-sm sticky top-0 z-40">
           <div className="container mx-auto max-w-6xl flex items-center justify-between">
             <Link href="/" className="flex items-center">
               <Image
