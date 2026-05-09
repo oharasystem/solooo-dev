@@ -92,6 +92,13 @@ export default async function ProductDetailPage({ params }: PageProps) {
             <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-bold text-xl bg-slate-50">
               Main Screenshot: {article.screenshots[0]?.split('/').pop() || 'Placeholder'}
             </div>
+            <Image 
+              src={article.screenshots[0]} 
+              alt={`${product.title} main screenshot`} 
+              fill 
+              className="object-cover" 
+              priority 
+            />
           </div>
         </section>
 
@@ -155,13 +162,18 @@ export default async function ProductDetailPage({ params }: PageProps) {
               スクリーンショット
               <span className="w-12 h-1 bg-slate-200 rounded-full"></span>
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className={`grid grid-cols-1 gap-10 ${article.screenshots.slice(1).length > 1 ? 'md:grid-cols-2' : 'max-w-2xl mx-auto w-full'}`}>
               {article.screenshots.slice(1).map((src, idx) => (
                 <div key={idx} className="relative aspect-video bg-slate-100 rounded-2xl overflow-hidden border border-slate-200 shadow-xl group hover:shadow-2xl transition-all duration-500">
                   <div className="absolute inset-0 flex items-center justify-center text-slate-400 font-medium bg-slate-50">
                     {src.split('/').pop()}
                   </div>
-                  {/* <Image src={src} alt={`${product.title} screenshot ${idx + 2}`} fill className="object-cover group-hover:scale-105 transition-transform duration-700" /> */}
+                  <Image 
+                    src={src} 
+                    alt={`${product.title} screenshot ${idx + 2}`} 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700" 
+                  />
                 </div>
               ))}
             </div>

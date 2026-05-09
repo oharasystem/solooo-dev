@@ -26,9 +26,8 @@ export const products: Product[] = [
       ],
       background: '私自身がサウナ愛好家であり、既存のアプリでは満足できなかった「デザインの美しさ」と「記録のしやすさ」を両立させるために開発をスタートしました。個人の開発だからこそできる、細部までこだわったUI/UXを追求しています。',
       screenshots: [
-        '/products/sauny/screenshot-1.png',
-        '/products/sauny/screenshot-2.png',
-        '/products/sauny/screenshot-3.png'
+        '/products/sauny/screenshot-1.webp',
+        '/products/sauny/screenshot-2.webp'
       ]
     }
   },
@@ -56,7 +55,7 @@ export const products: Product[] = [
         { title: '勝利を掴む', description: '10ターン終了後、スコアゲージが自分の側に傾いていれば勝利です。' }
       ],
       background: '「AIと本気で喧嘩ができたら面白いのではないか」という、少し型破りなインスピレーションからこのプロジェクトは始まりました。しかし、単なる言葉の応酬ではなく、知性とロジックを武器にAIを打ち負かす「討論」という形にすることで、ゲーム感覚で勝利を掴む楽しさを追求しました。RONPARKという名は、まさに論理（RON）で切り開く公園（PARK）のような、自由で刺激的な遊び場をイメージしています。',
-      screenshots: ['/products/ronpark/screenshot-1.png', '/products/ronpark/screenshot-2.png']
+      screenshots: ['/products/ronpark/screenshot-1.webp', '/products/ronpark/screenshot-2.webp']
     }
   },
   {
@@ -83,7 +82,7 @@ export const products: Product[] = [
         { title: '振り返りと共有', description: '終了後、AIによる要約と全文テキストで内容を簡単に振り返り、共有できます。' }
       ],
       background: 'LT Roomは、私自身がリーダーを務めるチームの定例会議を「もっと活気ある場所にしたい」という想いから生まれました。チーム内の相互理解や自己開示を促すために始めたLT（ライトニングトーク）ですが、ゼロからネタを考えるのは心理的ハードルが高いものです。そこで「ランダム抽選と自己選択」という制約と自由の絶妙なバランスを取り入れ、誰もが話しやすく、かつタイマーによって進行がスムーズに進む、現場目線のツールとして設計しました。',
-      screenshots: ['/products/lt-room/screenshot-1.png', '/products/lt-room/screenshot-2.png']
+      screenshots: ['/products/lt-room/screenshot-1.webp', '/products/lt-room/screenshot-2.webp']
     }
   },
   {
@@ -110,7 +109,7 @@ export const products: Product[] = [
         { title: 'ベストな日を選択', description: '回答が集まったら、最も都合の良い日が一目で分かります。' }
       ],
       background: '「調整マスター」は、既存の日程調整ツールのUI/UXに対する「もっと直感的に、ストレスなく使いたい」という強い不満から生まれました。自分が登録した予定の修正しづらさなど、細かな使い勝手の悪さを徹底的に排除し、現代的なデザインとスムーズな操作感を追求しました。さらに、日程と同時に「場所」や「メニュー」も選べる「2軸調整」機能を搭載。幹事さんの「いつ＆どこで？」を一度に解決できる、かゆい所に手が届くツールを目指しました。',
-      screenshots: ['/products/chousei-master/screenshot-1.png', '/products/chousei-master/screenshot-2.png']
+      screenshots: ['/products/chousei-master/screenshot-1.webp', '/products/chousei-master/screenshot-2.webp']
     }
   },
   {
@@ -137,7 +136,7 @@ export const products: Product[] = [
         { title: '瞬時にダウンロード', description: 'ブラウザ上で処理が完了し、即座に保存されます。' }
       ],
       background: 'Soku-pの原点は、個人開発における「実用的なアウトプット」への挑戦でした。昨今のWeb標準であるWebPへの変換を、サーバーリソースを使わずユーザーのブラウザ上だけで完結させる（サーバー送信なし）ことで、最高水準のセキュリティとスピードを実現しました。また、ただ変換するだけでなく、画質を保ちながらファイルサイズを極限まで削る圧縮ロジックにもこだわり、サイトのパフォーマンス向上に直結するツールとして設計しました。',
-      screenshots: ['/products/soku-p/screenshot-1.png', '/products/soku-p/screenshot-2.png']
+      screenshots: ['/products/soku-p/screenshot-1.webp', '/products/soku-p/screenshot-2.webp']
     }
   },
   {
@@ -164,7 +163,7 @@ export const products: Product[] = [
         { title: 'コンビニで印刷', description: '保存された画像をコンビニのネットプリント等でL判印刷するだけです。' }
       ],
       background: '履歴書作成などのシーンで必要となる「証明写真」を、より手軽に、かつ安価に用意できればという想いからこのプロダクトは誕生しました。スマホの普及に合わせ、撮影からコンビニ印刷用の画像生成までをワンストップで実現。画像を一切サーバーに送信しない設計を徹底することで、究極のプライバシー保護と「撮ってその場で作れる」手軽さの両立を追求しました。',
-      screenshots: ['/products/id-photo/screenshot-1.png', '/products/id-photo/screenshot-2.png']
+      screenshots: ['/products/id-photo/screenshot-1.webp', '/products/id-photo/screenshot-2.webp']
     }
   },
   {
@@ -191,7 +190,7 @@ export const products: Product[] = [
         { title: '計算ロジックも活用', description: '年齢や経過年数の計算にも役立てることができます。' }
       ],
       background: '年号マスターは、私の個人開発の旅が始まった記念すべき第1号プロダクトです。2025年から2026年にかけての年末年始、「新しい年に切り替わる瞬間に、何か価値あるものを生み出したい」という想いから開発をスタートしました。単なる西暦・和暦の変換に留まらず、履歴書作成に便利な入学・卒業年度の自動計算や厄年チェックなど、実生活に寄り添った機能を凝縮。あえてDBを持たない設計にすることで極限のパフォーマンスを追求し、さらに生成AIによる歴史情報の追加や多言語対応など、第1号ならではの情熱を細部まで詰め込みました。',
-      screenshots: ['/products/nengo/screenshot-1.png', '/products/nengo/screenshot-2.png']
+      screenshots: ['/products/nengo/screenshot-1.webp', '/products/nengo/screenshot-2.webp']
     }
   },
 ];
