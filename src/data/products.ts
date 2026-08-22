@@ -190,7 +190,13 @@ export const products: Product[] = [
         { title: '計算ロジックも活用', description: '年齢や経過年数の計算にも役立てることができます。' }
       ],
       background: '年号マスターは、私の個人開発の旅が始まった記念すべき第1号プロダクトです。2025年から2026年にかけての年末年始、「新しい年に切り替わる瞬間に、何か価値あるものを生み出したい」という想いから開発をスタートしました。単なる西暦・和暦の変換に留まらず、履歴書作成に便利な入学・卒業年度の自動計算や厄年チェックなど、実生活に寄り添った機能を凝縮。あえてDBを持たない設計にすることで極限のパフォーマンスを追求し、さらに生成AIによる歴史情報の追加や多言語対応など、第1号ならではの情熱を細部まで詰め込みました。',
-      screenshots: ['/products/nengo/screenshot-1.webp', '/products/nengo/screenshot-2.webp']
+      screenshots: [
+        '/products/nengo/screenshot-1.webp',
+        '/products/nengo/screenshot-2.webp',
+        '/products/nengo/screenshot-3.webp',
+        '/products/nengo/screenshot-4.webp',
+        '/products/nengo/screenshot-5.webp'
+      ]
     }
   },
 ];
