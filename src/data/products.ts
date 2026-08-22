@@ -27,7 +27,10 @@ export const products: Product[] = [
       background: '私自身がサウナ愛好家であり、既存のアプリでは満足できなかった「デザインの美しさ」と「記録のしやすさ」を両立させるために開発をスタートしました。個人の開発だからこそできる、細部までこだわったUI/UXを追求しています。',
       screenshots: [
         '/products/sauny/screenshot-1.webp',
-        '/products/sauny/screenshot-2.webp'
+        '/products/sauny/screenshot-2.webp',
+        '/products/sauny/screenshot-3.webp',
+        '/products/sauny/screenshot-4.webp',
+        '/products/sauny/screenshot-5.webp'
       ]
     }
   },
