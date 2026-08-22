@@ -82,7 +82,13 @@ export const products: Product[] = [
         { title: '振り返りと共有', description: '終了後、AIによる要約と全文テキストで内容を簡単に振り返り、共有できます。' }
       ],
       background: 'LT Roomは、私自身がリーダーを務めるチームの定例会議を「もっと活気ある場所にしたい」という想いから生まれました。チーム内の相互理解や自己開示を促すために始めたLT（ライトニングトーク）ですが、ゼロからネタを考えるのは心理的ハードルが高いものです。そこで「ランダム抽選と自己選択」という制約と自由の絶妙なバランスを取り入れ、誰もが話しやすく、かつタイマーによって進行がスムーズに進む、現場目線のツールとして設計しました。',
-      screenshots: ['/products/lt-room/screenshot-1.webp', '/products/lt-room/screenshot-2.webp']
+      screenshots: [
+        '/products/lt-room/screenshot-1.webp',
+        '/products/lt-room/screenshot-2.webp',
+        '/products/lt-room/screenshot-3.webp',
+        '/products/lt-room/screenshot-4.webp',
+        '/products/lt-room/screenshot-5.webp'
+      ]
     }
   },
   {
