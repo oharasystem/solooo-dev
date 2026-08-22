@@ -145,7 +145,7 @@ export const products: Product[] = [
     description: 'スマホで撮影した写真を、履歴書やパスポートなどの規格サイズに自動調整。コンビニでL判印刷するだけで証明写真が作れる、プライバシー重視の作成ツール。',
     url: 'https://id-photo.solooo.dev',
     status: 'released',
-    tags: ['Next.js', 'React Easy Crop', 'Radix UI', 'Cloudflare Pages', 'Privacy'],
+    tags: ['Next.js', 'React Easy Crop', 'shadcn/ui', 'Tailwind CSS (v4)', 'Cloudflare Pages', 'Canvas API'],
     isFeatured: false,
     releaseDate: '2026-01-29',
     article: {
@@ -163,7 +163,11 @@ export const products: Product[] = [
         { title: 'コンビニで印刷', description: '保存された画像をコンビニのネットプリント等でL判印刷するだけです。' }
       ],
       background: '履歴書作成などのシーンで必要となる「証明写真」を、より手軽に、かつ安価に用意できればという想いからこのプロダクトは誕生しました。スマホの普及に合わせ、撮影からコンビニ印刷用の画像生成までをワンストップで実現。画像を一切サーバーに送信しない設計を徹底することで、究極のプライバシー保護と「撮ってその場で作れる」手軽さの両立を追求しました。',
-      screenshots: ['/products/id-photo/screenshot-1.webp', '/products/id-photo/screenshot-2.webp']
+      screenshots: [
+        '/products/id-photo/screenshot-1.webp',
+        '/products/id-photo/screenshot-2.webp',
+        '/products/id-photo/screenshot-3.webp'
+      ]
     }
   },
   {

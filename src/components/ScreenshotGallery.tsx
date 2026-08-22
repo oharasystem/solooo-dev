@@ -181,10 +181,10 @@ export function MainScreenshot() {
     <div className="relative group">
       <div
         onClick={() => ctx.openModal(0)}
-        className="cursor-pointer rounded-2xl md:rounded-3xl overflow-hidden bg-slate-900 shadow-2xl border border-slate-800 transition-all duration-300 hover:shadow-blue-950/20 hover:border-slate-700"
+        className="cursor-pointer rounded-2xl md:rounded-3xl overflow-hidden bg-slate-900 shadow-2xl border border-slate-800 transition-all duration-300 hover:shadow-blue-950/20 hover:border-slate-700 transform-gpu"
       >
         {/* Browser Header Bar */}
-        <div className="px-4 py-3 bg-slate-800/95 border-b border-slate-700/80 flex items-center gap-3 select-none">
+        <div className="relative z-10 px-4 py-3 bg-slate-800 border-b border-slate-700 flex items-center gap-3 select-none">
           <div className="flex items-center gap-1.5">
             <span className="w-3 h-3 rounded-full bg-rose-500/80 inline-block"></span>
             <span className="w-3 h-3 rounded-full bg-amber-500/80 inline-block"></span>
@@ -204,8 +204,8 @@ export function MainScreenshot() {
         </div>
 
         {/* Image Container (object-contain, 16:9 edge-to-edge fit without extra padding) */}
-        <div className="relative aspect-video w-full bg-slate-950 flex items-center justify-center">
-          <div className="relative w-full h-full">
+        <div className="relative aspect-video w-full bg-slate-950 flex items-center justify-center overflow-hidden -mt-px">
+          <div className="relative w-full h-full overflow-hidden">
             <Image
               src={mainSrc}
               alt={`${ctx.title} メインスクリーンショット`}
@@ -249,10 +249,10 @@ export function GalleryScreenshots() {
             <div
               key={src}
               onClick={() => ctx.openModal(actualIndex)}
-              className="group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 shadow-md hover:shadow-2xl border border-slate-800 hover:border-slate-700 transition-all duration-300 hover:-translate-y-1.5 flex flex-col"
+              className="group cursor-pointer rounded-2xl overflow-hidden bg-slate-900 shadow-md hover:shadow-2xl border border-slate-800 hover:border-slate-700 transition-all duration-300 hover:-translate-y-1.5 flex flex-col transform-gpu"
             >
               {/* Browser Mini Header */}
-              <div className="px-4 py-3 bg-slate-800/95 border-b border-slate-700/80 flex items-center select-none">
+              <div className="relative z-10 px-4 py-3 bg-slate-800 border-b border-slate-700 flex items-center select-none">
                 <div className="flex items-center gap-1.5">
                   <span className="w-2.5 h-2.5 rounded-full bg-rose-500/80 inline-block"></span>
                   <span className="w-2.5 h-2.5 rounded-full bg-amber-500/80 inline-block"></span>
@@ -261,8 +261,8 @@ export function GalleryScreenshots() {
               </div>
 
               {/* Image Canvas (16:9 edge-to-edge fit) */}
-              <div className="relative aspect-video w-full bg-slate-950 flex items-center justify-center">
-                <div className="relative w-full h-full">
+              <div className="relative aspect-video w-full bg-slate-950 flex items-center justify-center overflow-hidden -mt-px">
+                <div className="relative w-full h-full overflow-hidden">
                   <Image
                     src={src}
                     alt={`${ctx.title} スクリーンショット ${actualIndex + 1}`}
