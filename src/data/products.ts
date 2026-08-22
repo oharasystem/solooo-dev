@@ -109,7 +109,12 @@ export const products: Product[] = [
         { title: 'ベストな日を選択', description: '回答が集まったら、最も都合の良い日が一目で分かります。' }
       ],
       background: '「調整マスター」は、既存の日程調整ツールのUI/UXに対する「もっと直感的に、ストレスなく使いたい」という強い不満から生まれました。自分が登録した予定の修正しづらさなど、細かな使い勝手の悪さを徹底的に排除し、現代的なデザインとスムーズな操作感を追求しました。さらに、日程と同時に「場所」や「メニュー」も選べる「2軸調整」機能を搭載。幹事さんの「いつ＆どこで？」を一度に解決できる、かゆい所に手が届くツールを目指しました。',
-      screenshots: ['/products/chousei-master/screenshot-1.webp', '/products/chousei-master/screenshot-2.webp']
+      screenshots: [
+        '/products/chousei-master/screenshot-1.webp',
+        '/products/chousei-master/screenshot-2.webp',
+        '/products/chousei-master/screenshot-3.webp',
+        '/products/chousei-master/screenshot-4.webp'
+      ]
     }
   },
   {
