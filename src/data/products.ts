@@ -136,7 +136,11 @@ export const products: Product[] = [
         { title: '瞬時にダウンロード', description: 'ブラウザ上で処理が完了し、即座に保存されます。' }
       ],
       background: 'Soku-pの原点は、個人開発における「実用的なアウトプット」への挑戦でした。昨今のWeb標準であるWebPへの変換を、サーバーリソースを使わずユーザーのブラウザ上だけで完結させる（サーバー送信なし）ことで、最高水準のセキュリティとスピードを実現しました。また、ただ変換するだけでなく、画質を保ちながらファイルサイズを極限まで削る圧縮ロジックにもこだわり、サイトのパフォーマンス向上に直結するツールとして設計しました。',
-      screenshots: ['/products/soku-p/screenshot-1.webp', '/products/soku-p/screenshot-2.webp']
+      screenshots: [
+        '/products/soku-p/screenshot-1.webp',
+        '/products/soku-p/screenshot-2.webp',
+        '/products/soku-p/screenshot-3.webp'
+      ]
     }
   },
   {
